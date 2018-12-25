@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>textakel</title>
+
+    <meta name="description" content="one click edits for text data with textakel">
+    <meta name="author" content="textakel">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/styles.css">
+  </head>
+
+<body class="container bg-light">
+
+  <main>
+    <h1 class="display-4">textakel</h1>
+    <p class="lead">1-click your text</p>
+    <hr class="my-4">
+
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text"><i class="icon ion-md-apps"></i></span>
+      </div>
+      <select class="custom-select" id="functions">
+        <option value="0" selected>choose...</option>
+      </select>
+      <div class="input-group-append">
+        <button class="btn btn-dark" type="button" id="btn_lore"><i class="icon ion-md-beer"></i></button>
+        <button class="btn btn-dark" type="button" id="btn_copy"><i class="icon ion-md-copy"></i></button>
+        <button class="btn btn-dark" type="button" id="btn_trash"><i class="icon ion-md-trash"></i></button>
+      </div>
+    </div>
+
+    <form>
+      <div class="form-group">
+        <textarea class="form-control" id="input" rows="10" placeholder="input here" autofocus></textarea>
+      </div>
+    </form>
+
+  </main>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="static/textakel.js"></script>
+</body>
+</html>
