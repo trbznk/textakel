@@ -1,6 +1,6 @@
 LORE = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-ENDPOINT = "http://localhost:5000/api/v1/";
-ENDPOINT_FUNCTIONS = "http://localhost:5000/api"
+ENDPOINT = window.location.href + "api/v1/";
+ENDPOINT_FUNCTIONS = window.location.href + "api"
 REQUEST = new XMLHttpRequest();
 
 function get_textarea(){
